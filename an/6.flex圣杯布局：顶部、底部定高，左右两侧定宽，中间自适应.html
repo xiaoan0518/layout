@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body,
+    html {
+      width: 100%;
+      height: 100%;
+
+    }
+
+    .warp {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      /* background: hotpink; */
+    }
+
+    .header {
+      height: 80px;
+      background-color: #515A6E;
+    }
+
+    .content {
+      flex: 1;
+      background: pink;
+      display: flex;
+    }
+
+    .left {
+      background-color: pink;
+      width: 100px;
+      height: 100%;
+
+    }
+
+    .center {
+      flex: 1;
+      background-color: firebrick;
+    }
+
+    .right {
+      width: 100px;
+      background-color: gray;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="warp">
+    <div class="header"></div>
+    <div class="content">
+      <div class="left"></div>
+      <div class="center">sdsdsd</div>
+      <div class="right"></div>
+    </div>
+  </div>
+
+</body>
+
+</html>
